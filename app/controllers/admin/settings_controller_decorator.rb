@@ -1,6 +1,6 @@
 Admin::SettingsController.class_eval do
 
-  def slack
+  def google_chat
     render layout: 'admin-settings'
   end
 

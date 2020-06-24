@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-# Declare your gem's dependencies in helpy_slack.gemspec.
+# Declare your gem's dependencies in helpy_google_chat.gemspec.
 # Bundler will treat runtime dependencies like base dependencies, and
 # development dependencies will be added by default to the :development group.
 gemspec
@@ -22,6 +22,6 @@ group :development, :test do
   gem 'scss-lint'
 end
 
-gem 'slack-notifier'
 gem 'deface'
 gem 'sucker_punch', '~> 2.0'
+gem "http"

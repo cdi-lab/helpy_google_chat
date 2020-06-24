@@ -1,7 +1,7 @@
 require 'test_helper'
 
-class HelpySlackTest < ActiveSupport::TestCase
+class HelpyGoogleChatTest < ActiveSupport::TestCase
   test "truth" do
-    assert_kind_of Module, HelpySlack
+    assert_kind_of Module, HelpyGoogleChat
   end
 end

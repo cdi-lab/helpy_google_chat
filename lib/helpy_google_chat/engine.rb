@@ -1,7 +1,6 @@
 require 'deface'
-require 'slack-notifier'
 
-module HelpySlack
+module HelpyGoogleChat
   class Engine < ::Rails::Engine
 
     config.autoload_paths += %W(#{config.root}/lib)

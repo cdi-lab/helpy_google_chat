@@ -3,7 +3,7 @@ require File.expand_path('../boot', __FILE__)
 require 'rails/all'
 
 Bundler.require(*Rails.groups)
-require "helpy_slack"
+require "helpy_google_chat"
 
 module Dummy
   class Application < Rails::Application

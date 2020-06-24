@@ -1,0 +1,15 @@
+<% content_for :settings do %>
+
+  <div class="admin-header">
+      <h2><%= "#{t(:settings, default: "Settings")}: #{t(:google_chat, default: "Google Chat")}" %></h2>
+  </div>
+
+  <%= bootstrap_form_tag url: admin_update_settings_path, method: 'put', multipart: true, authenticity_token: true do |f| %>
+  <div class='settings-section google_chat' data-hook='admin_settings_google_chat'>
+    <%= f.text_field 'google_chat.post_url', value: AppSettings['google_chat.post_url'], label: 'Webhook URL' %>
+  </div>
+    <div class="submit-section">
+      <%= f.submit "Save Settings", class: 'btn btn-warning' %>
+    </div>
+  <% end %>
+<% end %>
