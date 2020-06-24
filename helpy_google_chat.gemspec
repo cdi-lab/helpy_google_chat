@@ -6,7 +6,7 @@ require "helpy_google_chat/version"
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
   s.name        = "helpy_google_chat"
-  s.version     = HelpyGooleChat::VERSION
+  s.version     = HelpyGoogleChat::VERSION
   s.authors     = ["Jose Irizarry"]
   s.email       = ["jose.irizarry@cdi-lab.com"]
   s.homepage    = "http://helpy.io"
