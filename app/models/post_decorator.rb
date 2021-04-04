@@ -1,6 +1,6 @@
 Post.class_eval do
 
-  after_commit :ping_google_chat
+  after_commit :ping_google_chat, on: :create
 
 #  protected
 
